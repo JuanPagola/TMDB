@@ -1,0 +1,32 @@
+.starContainer {
+    input[type="radio"] {
+        display: none;
+    }
+
+    .starIcon:hover {
+        cursor: pointer;
+        transition: color 200ms;
+    }
+
+    button {
+        color: #494949 !important;
+        text-decoration: none;
+        background: #ffffff;
+        padding: 0.5rem;
+        border: 4px solid #494949 !important;
+        transition: all 0.4s ease 0s;
+        display: table;
+        margin: 0 auto;
+
+        &:hover {
+            color: #ffffff !important;
+            background: #f6b93b;
+            border-color: #f6b93b !important;
+            transition: all 0.4s ease 0s;
+        }
+    }
+}
+
+.noHover{
+    pointer-events: none !important;
+}
